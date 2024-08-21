@@ -1,9 +1,9 @@
-ni<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title></title>
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" 		 content="kimdanghang family">
+	<meta name="description" 		 content="Kimdanghang family">
 	<meta name="keywords" content="html, kimdanghang, kimdanghang family">
 	<meta name="robots" content="INDEX, FOLLOW">
  <style>
@@ -22,18 +22,22 @@ ni<!DOCTYPE html>
 	background-color: gray;
 	}
 </style>
- <h1 >Kimdanghang Family</h1>
+ <h1 >A branch of Kimdanghang Family Tree</h1>
 <br><br><br<br>
 
 
 </head>
+<input class="name-js" style="margin-left: 300px; font-size: 35px; width: 300px" type="text" placeholder="type first name"/>
+ <button class="search-js" style="font-size: 35px">search</button>
+ <a style="margin-left: 20px; font-size: 35px" href="mailto: sanam_hang@yahoo.com">Mail Me</a>
+<br><br>
+
 <body>
-	<img src="kimdanghang.jpeg" style="margin-left: 100px; height: 700px">
-  <button class="btn1"onclick="danta();">Danta Bahadur Kimdanghang</button><br><br><br<br><br><br><br<br>
-			 <p style="margin-left: 150px; font-size: 35px">Late Danta Bahadur Limbu belonged to the Kimdanghang family, present day rare clan. The clan used to reside at Bhirgaon, a hilly village in Dhankuta district of Eastern Nepal. During 19th and 20th century, they began to move down the hill to the flat terrain in a search for easier life. A few of them are found to be living at Puljhoda village of Morang district of Eastern Nepal while most of them are believed to have settled outside of Nepal. Kimdanghangs who claim to be Limbu caste at present day has stood on the edge of extinction while some of them call themselves Rai. Several historical events have to be considered to understand the causes. The most basic cause is the circumstances of being less in numbers in comparision to other castes like Rai in the region. The recent research by Marohang khawahang, PhD has proven that the clan's DNA matches with the Limbus. Click the link below to listen what he says.  </p>
- <a href="https://youtu.be/YQIJcPdZztM?si=nebpEsnRq-uD9r7H" style="margin-left: 200px; font-size: 50px; cursor: pointer">Touch me for Dr. Marohang's video</a><br><br><br><br>
-	
-	<a href="sanamati.html" style="margin-left: 200px; font-size: 50px; cursor: pointer">Sanamati(Wife)</a><br><br>
+	<img src="kimdanghang.jpeg" style="margin-left: 100px; height: 800px">
+	 <h2 style="margin-left: 100px"> Danta Bahadur Kimdanghang</h2>
+  <button class="btn1"onclick="danta();">About Me</button><br><br><br<br><br><br><br<br>
+ <p style="margin-left: 150px; font-size: 35px">Late Danta Bahadur Limbu belonged to the Kimdanghang family, present day rare clan. The clan used to reside at Bhirgaon, a hilly village in Dhankuta district of Eastern Nepal. During 19th and 20th century, they began to move down the hill to the flat terrain in a search for easier life. A few of them are found to be living at Puljhoda village of Morang district of Eastern Nepal while most of them are believed to have settled outside of Nepal. Kimdanghangs who claim to be from Limbu caste at present day has stood on the edge of extinction while some of them call themselves Rai. Several historical events have to be considered to understand the causes. The most basic cause is the circumstances of being less in numbers in comparision to other castes like Rai in the region. The recent research has proven that the clan's DNA matches with the Limbus.  </p>
+ <a href="sanamati.html" style="margin-left: 200px; font-size: 50px; cursor: pointer">Sanamati(Wife)</a><br><br>
 
  <a href="chandra.html" style="margin-left: 200px; font-size: 50px; cursor: pointer">Chandra Maya(Daughter)</a><br><br>
 
@@ -50,14 +54,56 @@ function danta(){
  document.body.innerHTML = `
 <img src="danta.jpeg" style="margin-left: 50px; height: 400px">  
 
-<p style="margin-left: 20px; font-size: 35px">Danta Bahadur Kimdanghang</p>
+<p style="margin-left: 20px; font-size: 35px">Mr. Danta Bahadur Kimdanghang.</p>
 
-<p style="margin-left: 20px; font-size: 35px">
-Danta Bahadur Kimdanghang in mid 20th century left hillside area and settled around Koshi Tapoo where he met Ms. Sanamati Angchhambo who was a resident of Inaruwa. They got married and had 4 children. Late Danta Bahadur was a wild life hunter and kept moving around the eastern Nepal and Assam a region in Arunachal Pradesh of India.
-</p>
+<p style="margin-left: 20px; font-size: 35px">Mr. Danta Bahadur Kimdanghang in mid 20th century left hillside area and settled around Koshi Tapoo where he met Ms. Sanamati Angchhambo who was a resident of Inaruwa. They got married and had 4 children. Late Danta Bahadur was a wild life hunter and kept moving around the eastern Nepal and Assam a region in Arunachal Pradesh of India.</p>
 <a href="index.html" style="margin-left: 100px; font-size: 40px; cursor: pointer">back</a>`;
 }
 
+function searchMachine(){
+const searchName = document.querySelector('.name-js').value;
+
+if(searchName === 'khadga' || searchName === 'Khadga' || searchName === 'Khadga bahadur' || searchName === 'khadga bahadur'){document.body.innerHTML = ` <a href="khadga.html" style="margin-left: 100px;font-size: 60px; color: orange">khadga bahadur kimdanghang</a>`;}
+
+else if(searchName === 'Sushma' || searchName === 'sushma'){document.body.innerHTML = ` <a href="sushma.html" style="margin-left: 100px; font-size: 60px; color: orange">Sushma Wonem Fago</a>`;}
+ 
+else if(searchName === 'sanam' || searchName === 'Sanam' || searchName === 'Ningwa' || searchName === 'ningwa'){document.body.innerHTML = ` <a href="ningwa.html" style="margin-left: 100px; font-size: 60px; color: orange">ningwa(sanam) kimdanghang</a>`;}
+
+else if(searchName === 'Ram' || searchName === 'ram' || searchName === 'Ram bahadur' || searchName === 'ram bahadur'){document.body.innerHTML = ` <a href="ram.html" style="margin-left: 100px; font-size: 60px; color: orange">ram bahadur kimdanghang</a>`;}
+
+else if(searchName === 'Buddi' || searchName === 'buddi' || searchName === 'Buddi bahadur' || searchName === 'buddi bahadur'){document.body.innerHTML = ` <a href="buddi.html" style="margin-left: 100px; font-size: 60px; color: orange">buddi bahadur kimdanghang</a>`;}
+
+else if(searchName === 'Chandramaya' || searchName === 'Chandra maya' || searchName === 'chandramaya' || searchName === 'chandra maya'){document.body.innerHTML = ` <a href="chandra.html" style="margin-left: 100px; font-size: 60px; color: orange">Chandra maya kimdanghang</a>`;}
+
+else if(searchName === 'asha' || searchName === 'Asha' || searchName === 'Som kumari' || searchName === 'som kumari' || searchName === 'Som' || searchName === 'som'){document.body.innerHTML = ` <a href="asha.html" style="margin-left: 100px; font-size: 60px; color: orange">Asha(Som kimari) kimdanghang</a>`;}
+
+else if(searchName === 'nisha' || searchName === 'Nisha' || searchName === 'Neelam' || searchName === 'Nilam' || searchName === 'neelam' || searchName === 'nilam'){document.body.innerHTML = ` <a href="nisha.html" style="margin-left: 100px; font-size: 60px; color: orange">Nisha kimdanghang</a>`;}
+
+else if(searchName === 'Bunu' || searchName === 'bunu' || searchName === 'Rita' || searchName === 'rita'){document.body.innerHTML = ` <a href="rita.html" style="margin-left: 100px; font-size: 60px; color: orange">Rita(Bunu)kimdanghang</a>`;}
+
+else if(searchName === 'santosh' || searchName === 'Santosh'){document.body.innerHTML = ` <a href="santosh.html" style="margin-left: 100px; font-size: 60px; color: orange">Santosh kimdanghang</a>`;}
+
+else if(searchName === 'Srijana' || searchName === 'Sirjana' || searchName === 'srijana' || searchName === 'sirjana'){document.body.innerHTML = ` <a href="sirjana.html" style="margin-left: 100px; font-size: 60px; color: orange">Sirjana kimdanghang</a>`;}
+
+else if(searchName === 'suraj' || searchName === 'Suraj'){document.body.innerHTML = ` <a href="suraj.html" style="margin-left: 100px; font-size: 60px; color: orange">Suraj kimdanghang</a>`;}
+
+else if(searchName === 'Rebika' || searchName === 'rebika' || searchName === 'Rebecca' || searchName === 'rebecca'){document.body.innerHTML = ` <a href="rebika.html" style="margin-left: 100px; font-size: 60px; color: orange">Rebika kimdanghang</a>`;}
+
+else if(searchName === 'Kelvin' || searchName === 'kelvin'){document.body.innerHTML = ` <a href="kelvin.html" style="margin-left: 100px; font-size: 60px; color: orange">Kelvin kimdanghang</a>`;}
+
+
+
+
+
+else{
+alert('check spelling and type again');
+}
+}
+
+document.querySelector('.search-js').addEventListener('click', () => {
+searchMachine();
+}
+);
 
 </script>
 </body>
